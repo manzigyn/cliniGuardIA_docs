@@ -5,21 +5,29 @@
 
 ## O que é o CliniGuard IA?
 
-O **CliniGuard IA** é uma plataforma criada para avaliar se sistemas de Inteligência Artificial utilizados na área da saúde respondem de forma **segura, correta e alinhada com as normas do Ministério da Saúde**.
+O **CliniGuard IA** é uma plataforma de avaliação, auditoria e governança de sistemas de Inteligência Artificial voltados à área da saúde. Foi desenvolvida como parte de um trabalho científico para avaliar, de forma sistemática, como diferentes sistemas de IA se comportam quando recebem perguntas médicas reguladas pelos **Protocolos Clínicos e Diretrizes Terapêuticas (PCDTs)** do Ministério da Saúde.
 
-Pense nela como um **examinador automático**: a plataforma faz perguntas clínicas a diferentes sistemas de IA — como o ChatGPT, Gemini, Claude e outros — e analisa se as respostas estão corretas, se inventam informações ou se apresentam algum tipo de tendência que possa prejudicar pacientes.
+Pense nela como um **examinador automático e imparcial**: a plataforma submete perguntas clínicas estruturadas a diferentes sistemas de IA — como GPT-4, Gemini, Claude e outros — e verifica, em cada resposta, três aspectos essenciais:
+
+- Se a resposta está **alinhada com as normas oficiais** do Ministério da Saúde
+- Se o sistema **inventou informações** que não existem (alucinação)
+- Se a resposta apresenta alguma **tendência injustificada** que possa prejudicar grupos de pacientes (viés)
+
+O processo é organizado em três etapas integradas: **preparação** (configuração dos experimentos), **execução** (envio automático das perguntas aos sistemas de IA) e **avaliação dos resultados** (análise das respostas por outros sistemas de IA configurados como “juízes”, com classificação e pontuação final). Todo o fluxo é controlado, reproduzível e rastreável, permitindo comparar execuções diferentes com confiança.
 
 ---
 
 ## Por que isso é importante?
 
-Sistemas de IA já estão sendo usados por profissionais de saúde para tirar dúvidas sobre medicamentos, dosagens e condutas clínicas. O problema é que essas ferramentas podem:
+Sistemas de IA já estão sendo usados por profissionais de saúde para tirar dúvidas sobre medicamentos, dosagens e condutas clínicas. No entanto, essas ferramentas não foram criadas especificamente para o contexto da saúde brasileira e não seguem, automaticamente, os protocolos oficiais. Isso gera riscos reais:
 
-- **Inventar informações** — citar medicamentos ou doses que não existem
-- **Apresentar tendências** — favorecer ou excluir grupos de pacientes sem justificativa
-- **Contradizer protocolos oficiais** — recomendar tratamentos que vão contra as diretrizes do Ministério da Saúde
+- **Inventar informações** — citar medicamentos, dosagens ou tratamentos que não existem ou são incorretos
+- **Apresentar tendências** — favorecer ou excluir grupos de pacientes sem qualquer base científica
+- **Contradizer protocolos oficiais** — recomendar condutas que vão contra as diretrizes do Ministério da Saúde
 
-O CliniGuard IA foi desenvolvido para **detectar e documentar esses problemas**, ajudando pesquisadores, gestores e profissionais da saúde a tomarem decisões mais seguras sobre quais sistemas de IA são confiáveis.
+O CliniGuard IA foi desenvolvido para **detectar, medir e documentar esses problemas** de forma científica e comparativa. Os resultados ajudam pesquisadores, gestores e profissionais da saúde a entender quais sistemas de IA são mais seguros e confiáveis para uso em contextos clínicos regulados.
+
+A avaliação é ancorada nos próprios PCDTs do Ministério da Saúde, que servem como gabarito normativo. Cada resposta gerada por um sistema de IA é comparada automaticamente com esses documentos e avaliada por outros modelos de IA atuando como “juízes” — tanto especialistas (com acesso ao conteúdo do PCDT) quanto generalistas (avaliando com base no conhecimento médico geral). Ao final, cada modelo recebe uma **pontuação de 0 a 100** e é classificado em uma faixa de risco: **Seguro**, **Uso Supervisionado**, **Restrito** ou **Não Recomendado**.
 
 ---
 
@@ -74,7 +82,7 @@ Criado para **bancas, demonstrações e auditorias externas**. Pode visualizar t
 |-----------------|----------|---------------|
 | Ver painel de resultados | ✅ | ✅ |
 | Ver modelos, perguntas e datasets | ✅ | ✅ |
-| Usar o chat interativo | ✅ | ✅ |
+| Usar o chat interativo | ❌ | ✅ |
 | Executar uma avaliação | ✅ | ✅ |
 | Exportar relatórios | ✅ | ✅ |
 | Cadastrar / editar modelos de IA | ❌ | ✅ |
@@ -147,7 +155,7 @@ Todas as respostas das IAs são verificadas contra esses documentos durante a av
 | Material | Descrição |
 |----------|-----------|
 | 🎥 [Vídeo de Demonstração](https://www.youtube.com/watch?v=LINK_DO_VIDEO) | Apresentação completa do uso da plataforma |
-| 📊 [Planilha de Perguntas Clínicas](scripts/Estrutura_prompts.xlsx) | Conjunto de perguntas usadas nas avaliações |
+| 📊 [Planilha de Perguntas Clínicas e Resultados das Avaliações](~$pesquisas_resultados_cliniguardIA.xlsx) | Conjunto de perguntas usadas nas avaliações |
 
 ---
 
