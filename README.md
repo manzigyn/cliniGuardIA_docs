@@ -155,7 +155,7 @@ Todas as respostas das IAs são verificadas contra esses documentos durante a av
 | Material | Descrição |
 |----------|-----------|
 | 🎥 [Vídeo de Demonstração](https://www.youtube.com/watch?v=LINK_DO_VIDEO) | Apresentação completa do uso da plataforma |
-| 📊 [Planilha de Perguntas Clínicas e Resultados das Avaliações](~$pesquisas_resultados_cliniguardIA.xlsx) | Conjunto de perguntas usadas nas avaliações |
+| 📊 [Planilha de Perguntas Clínicas e Resultados das Avaliações](pesquisas_resultados_cliniguardIA.xlsx) | Conjunto de perguntas usadas nas avaliações |
 
 ---
 
