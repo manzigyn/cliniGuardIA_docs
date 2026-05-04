@@ -167,7 +167,7 @@ Todas as respostas das IAs são verificadas contra esses documentos durante a av
 Não. A interface foi desenhada para ser intuitiva. Basta navegar pelos menus, selecionar as opções desejadas e seguir os passos indicados na tela.
 
 **As avaliações demoram muito?**
-Depende da quantidade de perguntas e de modelos selecionados. Uma execução pequena (10 perguntas, 2 modelos) pode levar alguns minutos. Execuções maiores podem levar mais tempo, mas você não precisa ficar na tela — a plataforma processa em segundo plano.
+Depende da quantidade de perguntas e de modelos selecionados. Uma execução pequena (10 perguntas, 4 modelos) dura cerca de 30 minutos. Execuções maiores podem levar mais tempo, mas você não precisa ficar na tela — a plataforma processa em segundo plano.
 
 **Posso ver execuções feitas por outras pessoas?**
 Sim. Todas as execuções ficam visíveis para todos os usuários cadastrados na plataforma.
@@ -177,14 +177,6 @@ Nada. A avaliação continua acontecendo normalmente no servidor. Você pode vol
 
 **Posso cancelar uma avaliação em andamento?**
 Sim. Na lista de execuções, existe um botão de cancelamento para avaliações que ainda estão em andamento.
-
----
-
-## Contato
-
-**Autor:** Flávio Manzi Alves  
-**Instituição:** Universidade Federal de Goiás (UFG)  
-**Curso:** Sistemas de Informação  
 
 ---
 
